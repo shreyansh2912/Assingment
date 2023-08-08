@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+    <center>
+      <h1 style= " font-size:xx-large; color:red; background-color:rgb(51, 51, 233); height: 50px; width: auto; margin-top: 30px;"> Individual Ragistration </h1>
+      </center>
+</head>
+<div class="container">
+<body style=" background-color: aqua;">
+  <form action="" method="get">
+  <p style="color: red; font-weight: bolder; font-size: larger;">User Particulars</p>  
+  <div class="container_1" style="text-align: center; "> 
+   <label for="login" style="margin-right: 70px;margin-top: 10px; font-size: larger; color: rgb(68, 68, 236); font-weight: bolder;">Login ID</label >
+   <input type="text" placeholder="" name="login" id="login" style="margin-top: 10px; margin-bottom: 15px;" required>
+  <br>
+   <label for="login" style="margin-right: 68px; font-size: larger; color: blue; font-weight: bolder;">Password </label>
+   <input type="password" placeholder="" name="password" id="password" style="margin-bottom: 15px;"> 
+  <br>
+   <label for="login" style=" margin-right: 10px; font-size: larger; color: blue; font-weight: bolder;">Confirm Password</label>
+   <input type="password" placeholder="" name="Password" id="password" > 
+  </div>
+  <br>
+  <p style="color:red; font-weight: bolder; font-size: larger;">Personal Particulars</p>
+  <div class="container_2" style= " color: blue; font-weight: bolder; display: flex; justify-content:  space-between; margin-left: 300px;">
+
+    <div class="leftcontainer">
+      <label for="Salutation font-size: larger;"style="font-size: larger;">Salutation</label>
+      <select  id="Salutation"  style="margin-bottom: 15px;">
+        <option value="">Select </option>
+        <option value="MR.">Mr.</option>
+        <option value="MRs.">Mrs.</option>
+        <option value="Ms.">Ms.</option>
+      </select>
+      <br>
+      <label for="Middle Name font-size: larger;" style="font-size: larger;"> Middle Name </label>
+      <input type="text" name="Middle Name" style="margin-bottom: 15px;"required>
+      <br>
+      <label for="Resident status font-size: larger;"style="font-size: larger;"> Resident Status </label>
+      <select  id="Resident Status" style="margin-bottom: 15px;" required >
+        <option value="">Select</option>
+        <option value="INR">INR</option>
+        <option value="ROR">ROR</option>
+        <option value="RNOR">RNOR</option>
+      </select>
+      <br>
+      <label for="Email_Id font-size: larger;"style="font-size: larger;"> Email_Id </label>
+      <input type="email" name="Email_Id " required>
+    </div>
+    <div class="rightcontainer " style="margin-right: 300px; margin-bottom: 10px;">
+      <label for="First Name font-size: larger; "style="font-size: larger;">First Name</label>
+      <input type="text" name="First Name"style="margin-bottom: 15px; " required>
+      <br>
+      <label for="Middle Name flex-item-right font-size: larger;"style="font-size: larger;"> Last Name </label>
+      <input type="text" name="Last Name" style="margin-bottom: 15px;"required>
+    <br>
+      <label for="Country font-size: larger;"style="font-size: larger;"> Country Name </label>
+      <select id="Country"style="margin-bottom: 15px;">
+        <option value="">Select</option>  
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Russia">Russia</option>
+        <option value="China">China</option>
+        <option value="Canada">Canada</option>
+      </select>
+   <br>
+      <label for="Mobile Number  font-size: larger;"style="font-size: larger;"> Mobile Number </label>
+      <input type="mobile number" name="Mobile Number">
+    </div>
+    </div>
+  <br>
+  <p style=" color: red;  font-weight: bolder; font-size: larger; margin-bottom: 30px;"> Account Particular</p>
+  <center>
+    <div class="Account Number">
+      <label for="Account Number font-size: larger;" style=" color: blue; font-weight: bolder; font-size:larger;">15 Digit Account No. </label>
+ <input type="number" style="margin-bottom: 15px;" name="Number">
+</div>
+<div class="Nick Name">
+  <label for="Name font-size: larger;"style=" color: blue; font-weight: bolder; font-size: larger;">Nick Name</label>
+  <input type="text"style="margin-bottom: 15px;  " name="Nick Name">
+</div>
+<div class="Fund transfer">
+<label for="Fund transfer font-size: larger;"style="color: blue; font-weight: bolder; font-size:larger; "  >Fund Transfer</label>
+<select id="Fund transfer"style="margin-bottom: 15px; ">
+<option value="">Select</option>
+<option value="NEFT">NEFT</option>
+<option value="RTGS">RTGS</option>
+<option value="IMPS">IMPS</option>
+</select>
+</div>
+</center>
+<br>
+<br> 
+<footer style="color: red; font-weight: bolder; font-size: larger;">DECLARATION</footer>
+<center>
+<pre style="color: rgb(58, 58, 237);font-weight: bolder;">
+  I have read, understood and hereby agree to the Terms and Conditions in respect of all products and 
+  channels.
+  I understand that any changes in the terms and conditions applicable to this relationship would be made 
+  available to me on request at any 108 branches. I confirm that all accounts under this login name are 
+  operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under 
+  his/her joint name respectively. I do hereby declare that information furnished in this form is true to the 
+  best of my knowledge and belief.
+</pre>
+</center>
+  
+<center>
+<button style="background-color:rgb(53, 53, 195);font-weight: bolder; font-size: medium; color: aliceblue; height: 30px ; width: 90px; margin-right: 10px; border-radius: 0.5rem; " >Submit</button>
+<button style="background-color:rgb(53, 53, 195); font-weight: bolder; font-size: medium; color: aliceblue; height: 30px ;width: 90px; margin-left: 10px; border-radius: 0.5rem;">Reset</button>
+</center>
+</div>
+</div>
+</form>
+</body>
+</html>
