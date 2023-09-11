@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+body{ 
+   background-color: rgb(86, 7, 96);
+   background-position: center;
+   background-size: cover;
+}
+.container{
+    width: 1700px;
+    height: 600px;
+    margin: 8%;
+    background: white;
+    border-radius: 5px;
+    position: relative;   
+}
+
+.container .container1{
+    
+    text-align: left;
+}
+.container .container2{
+    
+    
+    text-align: center;
+    margin-top: -150px;
+}
+.container .container3{
+    
+    text-align: right;
+    margin-top: -225px;
+}
+
+.form-row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.save-btn{
+    margin-top: 50px;
+    
+}
+.vl {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 600px;
+    margin-left: 400px;
+    margin-top: -460px;
+}
+.v2 {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 600px;
+    margin-left: 1100px;
+    margin-top: -600px;
+}  
+.form-row2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input1{
+    height: 150px;
+    width:100px;
+    margin-left: 100px;
+}
+.input2{
+    margin-top: 20px;
+    margin-right: 140px;
+}
+.input3{
+    margin-top: 30px;
+    height: 5px;   
+}
+.input4
+{
+    margin-top: 20px;
+    height: 5px;
+}
+img {
+    border-radius: 100%;
+}
